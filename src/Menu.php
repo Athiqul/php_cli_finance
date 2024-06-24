@@ -1,6 +1,8 @@
 <?php
 namespace App;
 use App\Categories;
+use App\Transactions;
+use App\History;
 class Menu {
    private const ADD_INCOME=1,ADD_EXPENSE=2,VIEW_INCOMES=3,VIEW_EXPENSE=4,VIEW_SAVINGS=5,VIEW_CATEGORIES=6,EXIT=7;
    private const OPTIONS=[
@@ -27,19 +29,19 @@ class Menu {
         switch($selectOption)
         {
             case self::ADD_INCOME:
-              
+                Transactions::addTransaction('income');
                break;
             case self::ADD_EXPENSE:
-              
+              Transactions::addTransaction('expense');
                break;
             case self::VIEW_INCOMES:
-             
+              History::incomesExpenses('income');
                break;
             case self::VIEW_EXPENSE:
-             
+              History::incomesExpenses('expense');
                break;
             case self::VIEW_SAVINGS:
-               
+               History::savings();
                break;
             case self::VIEW_CATEGORIES:
                 echo "===================================================".PHP_EOL;

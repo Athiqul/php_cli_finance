@@ -1,0 +1,20 @@
+[
+    {
+        "type": "income",
+        "category": "others",
+        "amount": "89",
+        "date": "2024-06-23"
+    },
+    {
+        "type": "income",
+        "category": "business",
+        "amount": "8989",
+        "date": "2024-06-23"
+    },
+    {
+        "type": "income",
+        "category": "others",
+        "amount": "897564",
+        "date": "2024-06-24"
+    }
+]
