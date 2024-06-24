@@ -18,7 +18,7 @@ Users can write the option number and press `Enter`. Based on the given option, 
 
 ##### NB:: Before run this script please make sure that the script shebang is write for your device.
 
-### Here is an example of how to use it 
+### Here is an example of how to use it. 
 
 1 - Add income
 2 - Add expense
